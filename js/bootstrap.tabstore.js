@@ -2,10 +2,15 @@
  * Tabstore Component for Twitter Bootstrap
  *
  * @author TriGlav <serghspm@inbox.ru>
- * version: 1.0.0
+ * version: 1.0.1
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
+ *
+ * TODO: add passing options from data-attribute
+ * TODO: add debugging
+ * TODO: add methods to activate/deactivate
+ * TODO: add events
  */
 
 
@@ -102,6 +107,11 @@
 	$.bootstrapTabRestore = function (options) {
 		$('body').bootstrapTabRestore(options || {});
 	};
+
+
+	$(function () {
+		$('[data-action="store"]').bootstrapTabRestore();
+	});
 
 
 })(jQuery);

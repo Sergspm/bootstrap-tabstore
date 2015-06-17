@@ -1,6 +1,6 @@
 {
   "name": "bootstrap.tabstore",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/Sergspm/bootstrap-tabstore",
   "description": "Twitter Bootstrap's component for storing and restoring tabs state",
   "main": "js/bootstrap.tabstore.js",
