@@ -69,13 +69,18 @@ Name|Type|Default|Description|
 key|string|"bootstrap-tabs-restore-key"|Key of the storage variable
 selector|string|"a[data-toggle='tab']"|Selector to filter tabs
 storage|string|"localStorage"|Type of storage
-trackShowEvent|string|"shown.bs.tab"|Event to track showing tabs
-trackHideEvent|string|"hidden.bs.tab"|Event to track hiding tabs
 track|boolean|*true*|Enable or disable tracking process (if disable, tabs restored, but not preserved)
 debug|boolean|*false*|Enable or disable debug mode
 
 ### Methods
-Coming soon...
+Name|Description|
+---|---
+on|Track on
+off|Track off
+restore|Force restore tabs
 
 ### Events
-Coming soon...
+Name|Description|
+---|---
+hidden.bs.tabstore|Fired after saving status hidden tab
+shown.bs.tabstore|Fired after saving status shown tab
